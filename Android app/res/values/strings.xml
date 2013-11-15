@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ZomBee Watch-MS Project</string>
+    <string name="button_photo">TakePhoto</string>
+    <string name="menu_settings">Menu Settings</string>
+    <string name="button_message">Say something</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="button_maps">Show My Location</string>
+    <string name="send_email">Send Email</string>
+    <string name="activity_cycle">Activity Cycle</string>
+    <string name="title_activity_cycle">CycleActivity</string>
+    <string name="capture">Capture photo</string>
+    <string name="take_tutorial">Take a Tutorial</string>
+    <string name="title_activity_take_tutorial">TakeTutorial</string>
+    <string name="display_notification">Set Remainder</string>
+    <string name="title_activity_create_notification">CreateNotificationActivity</string>
+    <string name="title_activity_notification_receiver">NotificationReceiverActivity</string>
+    <string name="create_notification">Create Notification</string>
+    <string name="title_activity_first_page">FirstPage</string>
+    <string name="title_activity_second_page">SecondPage</string>
+    <string name="title_activity_third_page">ThirdPage</string>
+    <string name="title_activity_fourth_page">FourthPage</string>
+    <string name="title_activity_fifth_page">FifthPage</string>
+    <string name="beepic">Flying around lights at night,\n stranded under porch lights, street lights, during the day crawling, disoriented or dead on sidewalk. Construct a light trap and place it near an area where 
+    you have found stranded bees or, if you are a beekeeper, near your bee hive/s. Please do not collect honey bees near hives unless you are a beekeeper</string>
+    <string name="title_activity_setting_up">SettingUp</string>
+    <string name="title_activity_monitor_sample">Monitor the sample</string>
+    <string name="title_activity_keep_sample">Keep the sample</string>
+    <string name="title_activity_no_pupae">NoPupae</string>
+    <string name="title_activity_step1">Step 1</string>
+    <string name="feedbacktype">Method Name</string>
+    <string name="feedbacktype1">Stranded, near a light</string>
+    <string name="feedbacktype2">Stranded, not near a light</string>
+    <string name="feedbacktype3">Light trap</string>
+    <string name="title_activity_step2">Step 2</string>
+    <string name="title_activity_step3">Step 3</string>
+    <string name="title_activity_observation">Observations</string>
+    <string name="title_activity_steps">Steps</string>
+    <string name="title_activity_observation_steps">Observation Steps</string>
+    <string name="title_activity_create_steps">Observation Steps</string>
+    <string name="menu_insert">Add Item</string>
+    <string name="no_notes">No Notes Exist</string>
+    <string name="hello_database">View Database</string>
+    <string name="title">NotesTitle</string>
+    <string name="body">NoteEditBody</string>
+    <string name="confirm">NoteEditConfirm</string>
+    <string name="edit_note">EditNote</string>
+    <string name="menu_delete">NoteEdit_Delete</string>
+    <string name="title_activity_pending_observation">Pending Observations</string>
+    <string name="title_activity_display_database">Steps to complete</string>
+    <string name="next_step_string">Step to do : </string>
+    <string name="title_activity_about">About ZombeeWatch</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_completed_observation">Completed Observations</string>
+    <string name="title_activity_details_completed_observations">Completed Observation</string>
+    <string name="title_activity_show_step1">Previous Steps</string>
+    <string name="title_activity_show_step2">Previous Steps</string>
+    <string name = "aboutapp">ZomBee Watch is a citizen science project sponsored by the San Francisco State University Department of Biology, the San Francisco State University Center for Computing for Life Sciences and the Natural History Museum of LA County. ZomBee Watch was initiated as a follow-up to the discovery that the Zombie Fly Apocephalus borealis is parasitizing honey bees in California and possibly other areas of North America. This android app for the ZomBee Watch has been completed as part of masters project at San Francisco State University. You can contact the developer at <a href="www.gmail.com">abinaya@mail.sfsu.edu</a> . More information about the ZomBee Watch project can be found at
+        <a href="www.zombeewatch.org">www.zombeewatch.org</a></string>
+
+</resources>

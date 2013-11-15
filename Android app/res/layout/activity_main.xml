@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/honey"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/whitebutton"
+            android:onClick="aboutZombeeWatch"
+            android:text="About Zombee Watch" />
+
+        <Button
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/whitebutton"
+            android:onClick="showMaps"
+            android:text="Zombee Watch Maps" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dip" >
+
+        <Button
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/whitebutton"
+            android:onClick="startObservation"
+            android:text="My Observations" />
+
+        <Button
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/whitebutton"
+            android:onClick="sendEmail"
+            android:text="Contact Us" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dip" >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/whitebutton"
+            android:onClick="takeTutorial"
+            android:text="Tutorial" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/whitebutton"
+            android:onClick="showPrivacy"
+            android:text="Privacy" />
+    </TableRow>
+
+</TableLayout>

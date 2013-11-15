@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+   <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/secondpage" />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="Collecting Stranded Honey Bees"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:gravity="top"
+       
+        android:text=" 
+*The simplest method of finding potential ZomBees is under a porch light or a street light.
+*Always handle honey bees safely. Weak and dying bees can still sting you.
+*Use a light trap to attract week and dying bees
+*There are many inexpensive ways to build effective light traps from materials around your home."
+ />
+
+   
+
+</LinearLayout>

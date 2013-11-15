@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <!-- Put form controls here -->
+
+        <TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 2 - Days 5-14"
+            android:textSize="10pt" >
+        </TextView>
+
+        <Button
+            android:id="@+id/previousStep1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/whitebutton"
+            android:text="Previous Step" 
+            android:onClick="showPreviousStep1"/>
+
+        <EditText
+            android:id="@+id/EditTextName"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:hint="# of pupae" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/EditTextFeedbackBody"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notes"
+            android:inputType="textMultiLine"
+            android:lines="5" >
+        </EditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:background="@drawable/whitebutton"
+            android:onClick="onDateDialogButtonClick"
+            android:text="Select obs date" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:background="@drawable/whitebutton"
+            android:onClick="takePhoto"
+            android:text="@string/button_photo" />
+
+        <Button
+            android:id="@+id/ButtonSendFeedback"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/whitebutton"
+            android:onClick="sendFeedback"
+            android:text="Save Observation" >
+        </Button>
+    </LinearLayout>
+
+</ScrollView>

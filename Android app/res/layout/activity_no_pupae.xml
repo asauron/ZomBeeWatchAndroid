@@ -1,0 +1,45 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        
+          <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No pupae?No problem!"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nopupae" />
+
+      
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sometimes no pupae will emerge from a sample. There can be several reasons for this.
+1,The honey  bees were not infected.
+2,The fly larvae died inside the bees.
+3,The bees reacted to some other kind of stress
+Finding regions where honey bees are not infected by phorids is an important goal of ZomBee Watch.Your observations are valuable. Be sure to return to ZomBee Watch and update your sample by entering zeros in the appropriate boxes for number of pupae and adult flies and then submit your sample.
+Keep sampling at different times and report your findings" />
+                
+                
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>

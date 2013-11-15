@@ -1,0 +1,40 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        
+          <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monitor your sample"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/monitor" />
+
+      
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keep samples of honey bees found stranded or from light traps in a secure place away from the sun.  Honey bees in these situations are not healthy and die quickly. Check each sample periodically for fly larvae (maggots) and brown pill-shaped fly pupae (expected 5-14 days after collection)  and adult flies (15-28 additional days). These time periods could be different depending on the temperature at which your sample is stored" />
+                
+                
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>

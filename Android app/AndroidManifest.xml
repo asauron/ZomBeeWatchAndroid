@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.phototaker2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/beepic"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.phototaker2.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName="com.example.phototaker2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.CycleActivity"
+            android:label="@string/title_activity_cycle"
+            android:parentActivityName="com.example.phototaker2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.TakeTutorial"
+            android:label="@string/title_activity_take_tutorial"
+            android:parentActivityName="com.example.phototaker2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.CreateNotificationActivity"
+            android:label="@string/title_activity_create_notification"
+            android:parentActivityName="com.example.phototaker2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.NotificationReceiverActivity"
+            android:label="@string/title_activity_notification_receiver"
+            android:parentActivityName="com.example.phototaker2.CreateNotificationActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.CreateNotificationActivity" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.FirstPage"
+            android:label="@string/title_activity_first_page" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.TakeTutorial" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.SecondPage"
+            android:label="@string/title_activity_second_page" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.TakeTutorial" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.ThirdPage"
+            android:label="@string/title_activity_third_page" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.TakeTutorial" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.FourthPage"
+            android:label="@string/title_activity_fourth_page" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.TakeTutorial" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.FifthPage"
+            android:label="@string/title_activity_fifth_page" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.TakeTutorial" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.SettingUp"
+            android:label="@string/title_activity_setting_up" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.TakeTutorial" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.MonitorSample"
+            android:label="@string/title_activity_monitor_sample" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.TakeTutorial" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.KeepSample"
+            android:label="@string/title_activity_keep_sample" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.TakeTutorial" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.NoPupae"
+            android:label="@string/title_activity_no_pupae" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.TakeTutorial" />
+        </activity>
+        <activity android:name="com.example.phototaker2.ZombieDBEdit" />
+        <activity
+            android:name="com.example.phototaker2.Step1"
+            android:label="@string/title_activity_step1" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.Step2"
+            android:label="@string/title_activity_step2" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.Step3"
+            android:label="@string/title_activity_step3" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.ObservationActivity"
+            android:label="@string/title_activity_observation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.Steps"
+            android:label="@string/title_activity_steps" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.ObservationActivity" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.ObservationSteps"
+            android:label="@string/title_activity_observation_steps" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.CreateSteps"
+            android:label="@string/title_activity_create_steps" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.PendingObservation"
+            android:label="@string/title_activity_pending_observation" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.DisplayDatabase"
+            android:label="@string/title_activity_display_database" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName="com.example.phototaker2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.CompletedObservation"
+            android:label="@string/title_activity_completed_observation"
+            android:parentActivityName="com.example.phototaker2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.DetailsCompletedObservations"
+            android:label="@string/title_activity_details_completed_observations"
+            android:parentActivityName="com.example.phototaker2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.ShowStep1"
+            android:label="@string/title_activity_show_step1"
+            android:parentActivityName="com.example.phototaker2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.phototaker2.ShowStep2"
+            android:label="@string/title_activity_show_step2"
+            android:parentActivityName="com.example.phototaker2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phototaker2.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
